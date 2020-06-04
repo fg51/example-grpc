@@ -10,9 +10,9 @@ edition = "2018"
 name = "server"
 path = "src/server.rs"
 
-# [[bin]]
-# name = "client"
-# path = "src/client.rs"
+[[bin]]
+name = "client"
+path = "src/client.rs"
 
 [dependencies]
 tonic = "0.2"
